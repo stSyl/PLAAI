@@ -1,0 +1,58 @@
+{
+	"key": "___",
+	"title": "___",
+	"parent": "___",
+	"short": "___",
+	"definition": "___",
+	"contributors": ["Boris Steipe <boris.steipe@utoronto.ca>"],
+	"version": "v. 2023-05-18",
+	"last update": "2023-05-18T19:11-0400",
+	"status": "public",
+	"in reference": false,
+	"IS-A": {
+		"keys": ["___"],
+		"notes": "___"
+	},
+	"ARISES-FROM": {
+		"keys": ["___"],
+		"notes": "___"
+	},
+	"GOVERNED-BY": {
+		"keys": ["___"],
+		"notes": "___"
+	},
+	"COMPONENT-OF": {
+		"keys": ["___"],
+		"notes": "___"
+	},
+	"task": "___",
+	"details": "___",
+	"AI concerns": "___",
+	"implementation": "___",
+
+	"# EXCHANGEABLE-WITH": "___",
+	"EXCHANGEABLE-WITH": {
+		"keys": ["___"],
+		"notes": "___"
+	},
+
+	"figure": {
+		"url": null,
+		"caption": null
+	},
+
+	"HAS-FORM": {
+		"keys": ["___"],
+		"notes": "___"
+	},
+
+	"HAS-COMPONENT": {
+		"keys": ["___"],
+		"notes": "___"
+	},
+
+	"RESULTS-IN": {
+		"keys": ["___"],
+		"notes": "___"
+	}
+}
