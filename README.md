@@ -3,7 +3,9 @@
 (The Sentient Syllabus Project)
 
 
-... TBC
+See white paper [here](https://tinyurl.com/PLAAI-wp).
+
+See GitHub pages [here](https://stsyl.github.io/PLAAI/).
 
 
 (c) 2023
