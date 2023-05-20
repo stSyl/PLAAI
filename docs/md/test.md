@@ -139,9 +139,9 @@ Following Patterns, Results, or Outcomes:
 
 ----
 
-<table style="width:100%; font-size=85%; color:#AAAAAA;">
-<tr><td>© 2023 - Boris Steipe</td></tr> 
-<tr><td>[Comments and Issues](https://github.com/stSyl/PLAAI) | [White Paper](https://tinyurl.com/PLAAI-wp) | [Reference Tree](https://stsyl.github.io/PLAAI/PLAAI-reference.html) | [Sentient Syllabus Substack](https://sentientsyllabus.substack.com)</td></tr> 
-</table>
+<div style="width:100%; font-size=85%; color:#999999;">
+© 2023 - Boris Steipe<br/>
+<a href="https://github.com/stSyl/PLAAI">Comments and Issues]</a> | <a href="https://tinyurl.com/PLAAI-wp">White Paper | <a href="https://stsyl.github.io/PLAAI/PLAAI-reference.html">Reference Tree | <a href="https://sentientsyllabus.substack.com">Sentient Syllabus Substack
+</div>
 
 <!-- END-->
