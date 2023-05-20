@@ -62,13 +62,13 @@
 	"FIGURE.URL": "___",
 	"FIGURE.CAPTION": "A figure caption. May be null.",
 
-	"# ALTERNATIVEFORM": "Patterns that describe alternative formats or modes. May be null.",
-	"ALTERNATIVEFORM.KEYS": ["___"],
-	"ALTERNATIVEFORM.NOTES": "Notes on the keys, if any. May be null.",
-
 	"# HASCOMPONENT": "Patterns that can function as integral parts and provide content, structure, and additional context, or compose systems. May be null.",
 	"HASCOMPONENT.KEYS": ["___"],
 	"HASCOMPONENT.NOTES": "Notes on the keys, if any. May be null.",
+
+	"# ALTERNATIVEFORM": "Patterns that describe alternative formats or modes. May be null.",
+	"ALTERNATIVEFORM.KEYS": ["___"],
+	"ALTERNATIVEFORM.NOTES": "Notes on the keys, if any. May be null.",
 
 	"# RESULTSIN": "Patterns that are the results of the pattern. Paired with the RESULTSFROM relationship, it allows defining sequences of patterns. May be null.",
 	"RESULTSIN.KEYS": ["___"],
