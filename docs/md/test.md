@@ -136,12 +136,9 @@ Following Patterns, Results, or Outcomes:
 * TUTAL  
   Lecture - Tutorial - Assignment - Assessment is a frequently employed process pattern.
   
-  
-[GitHub Pages](https://pages.github.com/)
-
 
 ----
-<!-- div style = "font-size=85%;" -->
+<div style = "font-size:85%;">
 © 2023 - Boris Steipe 
 
 [Comments and Issues](https://github.com/stSyl/PLAAI) | 
@@ -149,6 +146,6 @@ Following Patterns, Results, or Outcomes:
 [Reference Tree](https://stsyl.github.io/PLAAI/PLAAI-reference.html) | 
 [Sentient Syllabus Substack](https://sentientsyllabus.substack.com)
 
-<!-- /div -->
+</div>
 
 <!-- END-->
