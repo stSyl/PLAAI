@@ -1,58 +1,50 @@
 {
-	"key": "___",
-	"title": "___",
-	"parent": "___",
-	"short": "___",
-	"definition": "___",
-	"contributors": ["Boris Steipe <boris.steipe@utoronto.ca>"],
-	"version": "v. 2023-05-18",
-	"last update": "2023-05-18T19:11-0400",
-	"status": "public",
-	"in reference": false,
-	"IS-A": {
-		"keys": ["___"],
-		"notes": "___"
-	},
-	"ARISES-FROM": {
-		"keys": ["___"],
-		"notes": "___"
-	},
-	"GOVERNED-BY": {
-		"keys": ["___"],
-		"notes": "___"
-	},
-	"COMPONENT-OF": {
-		"keys": ["___"],
-		"notes": "___"
-	},
-	"task": "___",
-	"details": "___",
-	"AI concerns": "___",
-	"implementation": "___",
+	"KEY": "___",
+	"TITLE": "___",
+	"SHORT": "___",
+	"DEF": "___",
+	"CONTRIB": ["Boris Steipe <boris.steipe@utoronto.ca>"],
+	"VERSION": "v. 2023-05-20",
+	"UPDATE": "2023-05-20T08:56-0400",
+	"STATUS": "public",
+	"IN.REFERENCE": false,
 
-	"# EXCHANGEABLE-WITH": "___",
-	"EXCHANGEABLE-WITH": {
-		"keys": ["___"],
-		"notes": "___"
-	},
+	"PARENT.KEYS": ["___"],
+	"PARENT.NOTES": "___",
 
-	"figure": {
-		"url": null,
-		"caption": null
-	},
+	"ISA.KEYS": ["___"],
+	"ISA.NOTES": "___",
 
-	"HAS-FORM": {
-		"keys": ["___"],
-		"notes": "___"
-	},
+	"RESULTSFROM.KEYS": ["___"],
+	"RESULTSFROM.NOTES": "___",
 
-	"HAS-COMPONENT": {
-		"keys": ["___"],
-		"notes": "___"
-	},
+	"GOVERNEDBY.KEYS": ["___"],
+	"GOVERNEDBY.NOTES": "___",
 
-	"RESULTS-IN": {
-		"keys": ["___"],
-		"notes": "___"
-	}
+	"COMPONENTOF.KEYS": ["___"],
+	"COMPONENTOF.NOTES": "___",
+
+	"TASK": "___",
+
+	"DETAILS": "___"",
+
+	"AI": "___",
+
+	"IMPLEMENTATION": "___",
+
+	"CANBEREPLACEDWITH.KEYS": ["___"],
+	"CANBEREPLACEDWITH.NOTES": "___",
+
+	"FIGURE.URL": "___",
+	"FIGURE.CAPTION": "___",
+
+	"ALTERNATIVEFORM.KEYS": ["___"],
+	"ALTERNATIVEFORM.NOTES": "___",
+
+	"HASCOMPONENT.KEYS": ["___"],
+	"HASCOMPONENT.NOTES": "___",
+
+	"RESULTSIN.KEYS": ["___"],
+	"RESULTSIN.NOTES": "___"
+
 }

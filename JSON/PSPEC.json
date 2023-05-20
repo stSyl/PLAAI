@@ -1,102 +1,77 @@
 {
-	"# key": "A five letter, uppercase, alphanumeric, mnemonic string. It must be unique among all PLAAI patterns.",
-	"key": "PSPEC",
+	"# KEY": "A five letter, uppercase, alphanumeric, mnemonic string. It must be unique among all PLAAI patterns.",
+	"KEY": "PSPEC",
 
-	"# title": "Describe the pattern in less than four words",
-	"title": "PLAAI pattern specification",
+	"# TITLE": "Describe the pattern in less than four words",
+	"TITLE": "PLAAI pattern specification",
 
-	"# parent": "Exactly one IS-A relationship that is considered the parent pattern in the ontology.",
-	"parent": "PMETA",
+	"# SHORT": "One or two words for display in the reference tree",
+	"SHORT": "Pattern spec.",
 
-	"# short": "One or two words for display in the reference tree",
-	"short": "Pattern spec.",
+	"DEF": "One sentence to define the pattern (used e.g. in hovertext).",
 
-	"definition": "One sentence to define the pattern (used e.g. in hovertext).",
+	"# CONTRIB": "An array of names and emails",
+	"CONTRIB": ["Boris Steipe <boris.steipe@utoronto.ca>"],
 
-	"# contributors": "An array of names and emails",
-	"contributors": ["Boris Steipe <boris.steipe@utoronto.ca>"],
+	"# VERSION": "The pattern structure version, given as the date: v. YYYY-MM-DD.",
+	"VERSION": "v. 2023-05-20",
 
-	"# version": "The pattern structure version, given as the date: v. YYYY-MM-DD.",
-	"version": "v. 2023-05-18",
+	"# UPDATE": "As per ISO 8601: format(Sys.time(), '%Y-%m-%dT%H:%M%z')",
+	"UPDATE": "2023-05-20T12:51-0400",
 
-	"# last update": "As per ISO 8601: format(Sys.time(), '%Y-%m-%dT%H:%M%z')",
-	"last update": "2023-05-18T19:11-0400",
+	"# STATUS": "One of {stub, dev, public}. stub status requires a completed meta block and a task description. dev status requires keys for sources, exchangeables, and targets to be listed. public status is a worked out pattern, though it may not yet be in its final form.",
+	"STATUS": "public",
 
-	"# status": "One of {stub, dev, public}. stub status requires a completed meta block and a task description. dev status requires keys for sources, exchangeables, and targets to be listed. public status is a worked out pattern, though it may not yet be in its final form.",
-	"status": "public",
+	"# IN.REFERENCE": "Boolean value: whether the pattern appears in the reference tree or list.",
+	"IN.REFERENCE": false,
 
-	"# in-reference": "Boolean value: whether the pattern appears in the reference tree or list.",
-	"in reference": false,
+	"# PARENT.KEYS": "Exactly one key that is considered the parent pattern in the ontology tree. Mandatory.",
+	"PARENT.KEYS": ["___"],
+	"PARENT.NOTES": "Notes on the key, if any. May be null.",
 
-	"# Is-A": "This object lists patterns that define a category in which this pattern is contained.",
-	"IS-A": {
-		"# keys": "An array of keys. At least one key must be present: the parent-key designated in the meta block.",
-		"keys": ["___"],
-		"notes": "Notes on the keys, if any. May be null."
-	},
+	"# ISA": "Patterns that represent a category in which this pattern is contained. may be null.",
+	"ISA.KEYS": ["___"],
+	"ISA.NOTES": "Notes on the keys, if any. May be null.",
 
-	"# ARISES-FROM": "This object lists patterns that create the pattern or have it as their outcome. Paired with the RESULTS-IN relationship, it allows defining sequences of patterns.",
-	"ARISES-FROM": {
-		"# keys": "An array of keys. May be null.",
-		"keys": ["___"],
-		"notes": "Notes on the keys, if any. May be null."
-	},
+	"# RESULTSFROM": "Patterns that create the pattern or have it as their outcome. Paired with the RESULTSIN relationship, it allows defining sequences of patterns. May be null.",
+	"RESULTSFROM.KEYS": ["___"],
+	"RESULTSFROM.NOTES": "Notes on the keys, if any. May be null.",
 
-	"# GOVERNED-BY": "This object lists patterns that define rules, principles, or standards for the pattern.",
-	"GOVERNED-BY": {
-		"# keys": "An array of keys. May be null.",
-		"keys": ["___"],
-		"notes": "Notes on the keys, if any. May be null."
-	},
+	"# GOVERNEDBY": "Patterns that define rules, principles, or standards for the pattern. May be null",
+	"GOVERNEDBY.KEYS": ["___"],
+	"GOVERNEDBY.NOTES": "Notes on the keys, if any. May be null.",
 
-	"# COMPONENT-OF": "This object lists patterns that are more complex systems or structures that contain the pattern.",
-	"COMPONENT-OF": {
-		"# keys": "An array of keys. May be null.",
-		"keys": ["___"],
-		"notes": "Notes on the keys, if any. May be null."
-	},
+	"# COMPONENTOF": "Patterns that define rules, principles, or standards for the pattern. May be null",
+	"COMPONENTOF.KEYS": ["___"],
+	"COMPONENTOF.NOTES": "Notes on the keys, if any. May be null.",
 
-	"task": "The mandatory task description is the heart of the pattern: in three or four concise sentences, the main purpose of the pattern is described as a task which the pattern intends to solve, and the main benefits are listed. Constraints that reduce the effectiveness of the solution are also stated, and how those constraints can be addressed. Therefore the task description defines the reason for the pattern to exist and outlines what needs to be done to make it work well. The description is thus structured by answering the questions: (1) What is it? (2) Why is it useful or important? (3) What challenges affect it? (4) What makes it work well?",
+	"TASK": "Mandatory. The task description is the heart of the pattern: in three or four concise sentences, the main purpose of the pattern is described as a task which the pattern intends to solve, and the main benefits are listed. Constraints that reduce the effectiveness of the solution are also stated, and how those constraints can be addressed. Therefore the task description defines the reason for the pattern to exist and outlines what needs to be done to make it work well. The description is thus structured by answering the questions: (1) What is it? (2) Why is it useful or important? (3) What challenges affect it? (4) What makes it work well?",
 
-	"details": "This section describes details of the pattern. The section must be present but may be null.",
+	"DETAILS": "This section describes details of the pattern. May be null.",
 
-	"AI concerns": "This section describes specifically how AI can augment the pattern’s function. Possible negative impacts of AI may be included, as well as strategies to thwart AI use by learners if necessary. It contains prompts, where indicated and links to resources. The section must be present but may be null.",
+	"AI": "This section describes specifically how AI can augment the pattern’s function and other AI concenrs. Possible negative impacts of AI may be included, as well as strategies to thwart AI use by learners if necessary. It contains prompts, where indicated and links to resources. May be null.",
 
-	"implementation": "Clear, specific, and actionable implementation instructions are given that address problems and make use of the AI opportunities discussed above. This is a recipe of how the pattern is put into practice. The section must be present but may be null.",
+	"IMPLEMENTATION": "Clear, specific, and actionable implementation instructions are given that address problems and make use of the AI opportunities discussed above. This is a recipe of how the pattern is put into practice. May be null.",
 
-	"# EXCHANGEABLE-WITH": "Patterns that can replace the pattern in a particular context.",
-	"EXCHANGEABLE-WITH": {
-		"# keys": "An array of keys. May be null.",
-		"keys": ["___"],
-		"notes": "Notes on the keys, if any. May be null."
-	},
 
-	"# figure": "A structured diagram that provides a graphical summary of the pattern.",
-	"figure": {
-		"# url": "The URL of a figure in svg, jpg, or png format. May be null",
-		"url": null,
-		"# caption": "A figure caption. May be null.",
-		"caption": null
-	},
+	"# CANBEREPLACEDWITH": "Patterns that can replace the pattern in a particular context. May be null",
+	"CANBEREPLACEDWITH.KEYS": ["___"],
+	"CANBEREPLACEDWITH.NOTES": "Notes on the keys, if any. May be null.",
 
-	"# HAS-FORM": "Patterns that describe alternative formats or modes.",
-	"HAS-FORM": {
-		"# keys": "An array of keys. May be null.",
-		"keys": ["___"],
-		"notes": "Notes on the keys, if any. May be null."
-	},
+	"# FIGURE": "A structured diagram that provides a graphical summary of the pattern. May be null.",
+	"FIGURE.URL": "___",
+	"FIGURE.CAPTION": "A figure caption. May be null.",
 
-	"# HAS-COMPONENT": "Patterns that can function as integral parts and provide content, structure, and additional context, or compose systems.",
-	"HAS-COMPONENT": {
-		"# keys": "An array of keys. May be null.",
-		"keys": ["___"],
-		"notes": "Notes on the keys, if any. May be null."
-	},
+	"# ALTERNATIVEFORM": "Patterns that describe alternative formats or modes. May be null.",
+	"ALTERNATIVEFORM.KEYS": ["___"],
+	"ALTERNATIVEFORM.NOTES": "Notes on the keys, if any. May be null.",
 
-	"# RESULTS-IN": "This object lists patterns that are the results of the pattern. Paired with the ARISES-FROM relationship, it allows defining sequences of patterns.",
-	"RESULTS-IN": {
-		"# keys": "An array of keys. May be null.",
-		"keys": ["___"],
-		"notes": "Notes on the keys, if any. May be null."
-	}
+	"# HASCOMPONENT": "Patterns that can function as integral parts and provide content, structure, and additional context, or compose systems. May be null.",
+	"HASCOMPONENT.KEYS": ["___"],
+	"HASCOMPONENT.NOTES": "Notes on the keys, if any. May be null.",
+
+	"# RESULTSIN": "Patterns that are the results of the pattern. Paired with the RESULTSFROM relationship, it allows defining sequences of patterns. May be null.",
+	"RESULTSIN.KEYS": ["___"],
+	"RESULTSIN.NOTES": "Notes on the keys, if any. May be null."
+
 }
