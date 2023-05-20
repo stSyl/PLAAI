@@ -136,6 +136,10 @@ Following Patterns, Results, or Outcomes:
 * TUTAL  
   Lecture - Tutorial - Assignment - Assessment is a frequently employed process pattern.
   
+  
+[GitHub Pages](https://pages.github.com/)
+
+
 ----
 <!-- div style = "font-size=85%;" -->
 © 2023 - Boris Steipe 
