@@ -22,24 +22,26 @@
 
 Parent:
 ORCOM  
-  Parent in the reference tree.
+Note: Parent in the reference tree.
   
 Is-A:
-* MODUL
-* ASSIG  
-  Lectures are the quintessential oral communication. They can be a standalone content module, and they can be produced and evaluated as an assignment.
+<ul>
+<li>MODUL</li>
+<li>ASSIG</li>
+</ul>  
+Note:  Lectures are the quintessential oral communication. They can be a standalone content module, and they can be produced and evaluated as an assignment.
   
 Results from:
 CNDEV  
-  Content development of lectures has many facets. It is discussed here.
+Note: Content development of lectures has many facets. It is discussed here.
   
 Governed by:
 SYLAB  
-  The syllabus is expected to contain a lecture schedule with contents outline.
+Note: The syllabus is expected to contain a lecture schedule with contents outline.
   
 Component of:
 LESSN  
-  The actual lecture is usually only part of a lesson’s time slot.
+Note: The actual lecture is usually only part of a lesson’s time slot.
 
 ----
   
@@ -105,9 +107,11 @@ Treat the lecture as an exciting, inspiring event, and share the excitement with
 ----
 
 ## This Pattern could be replaced with ...
-* INCLD
-* EDULV  
-  See text.
+<ul>
+<li>INCLD</li>
+<li>EDULV</li>
+</ul>  
+Note: See text.
 
 <!-- 
 NA
@@ -120,28 +124,33 @@ NA
 #### Outgoing Relationships
 
 Components and Augmenting Patterns:
-* EDCNT
-* AIWRI
-* AIDSC
-* AITTR
-* KNREP  
-  See text.
+<ul>
+<li>EDCNT</li>
+<li>AIWRI</li>
+<li>AIDSC</li>
+<li>AITTR</li>
+<li>KNREP</li>
+</ul>  
+Note: See text.
 
 Alternative Forms or Modes:
 NA  
-  NA
+Note: NA
   
 Following Patterns, Results, or Outcomes:
-* ASSIG
-* TUTAL  
-  Lecture - Tutorial - Assignment - Assessment is a frequently employed process pattern.
+<ul>
+<li>ASSIG</li>
+<li>TUTAL</li>
+</ul>  
+Note: Lecture - Tutorial - Assignment - Assessment is a frequently employed process pattern.
   
 
-----
+<hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
 
-<div style="width:100%; font-size=85%; color:#999999;">
+
+<div style="width:100%; font-size=75%; color:#999999;">
 © 2023 - Boris Steipe<br/>
-<a href="https://github.com/stSyl/PLAAI">Comments and Issues]</a> | <a href="https://tinyurl.com/PLAAI-wp">White Paper | <a href="https://stsyl.github.io/PLAAI/PLAAI-reference.html">Reference Tree | <a href="https://sentientsyllabus.substack.com">Sentient Syllabus Substack
+<a href="https://github.com/stSyl/PLAAI">Comments and Issues]</a> | <a href="https://tinyurl.com/PLAAI-wp">White Paper | <a href="https://stsyl.github.io/PLAAI/PLAAI-reference.html">Reference Tree | <a href="https://sentientsyllabus.substack.com">Sentient Syllabus Substack</a>
 </div>
 
 <!-- END-->
