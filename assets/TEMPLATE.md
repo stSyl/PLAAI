@@ -21,23 +21,23 @@
 
 #### Incoming Relationships
 
-Parent:
+##### Parent:
 {{PARENT.KEY}}  
   Note: {{PARENT.NOTES}}
   
-Is-A:
+##### Is-A:
 {{ISA.KEYS}}  
   Note:  {{ISA.NOTES}}
   
-Results from:
+##### Results from:
 {{RESULTSFROM.KEYS}}  
   Note: {{RESULTSFROM.NOTES}}
   
-Governed by:
+##### Governed by:
 {{GOVERNEDBY.KEYS}}  
   Note: {{GOVERNEDBY.NOTES}}
   
-Component of:
+##### Component of:
 {{COMPONENTOF.KEYS}}  
   Note: {{COMPONENTOF.NOTES}}
 
@@ -57,28 +57,26 @@ Component of:
 
 <hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
 
-## This Pattern could be replaced with ...
+### This Pattern could be replaced with ...
 {{CANBEREPLACEDWITH.KEYS}}  
   Note: {{CANBEREPLACEDWITH.NOTES}}
 
-<!-- 
-{{FIGURE.URL}}
-{{FIGURE.CAPTION}}
--->
+<!-- FIGURE.URL -->
+<!--  FIGURE.CAPTION -->
 
 <hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
 
 #### Outgoing Relationships
 
-Components and Augmenting Patterns:
+##### Components and Augmenting Patterns:
 {{HASCOMPONENT.KEYS}}  
   Note: {{HASCOMPONENT.NOTES}}
 
-Alternative Forms or Modes:
+##### Alternative Forms or Modes:
 {{ALTERNATIVEFORM.KEYS}}  
   Note: {{ALTERNATIVEFORM.NOTES}}
   
-Following Patterns, Results, or Outcomes:
+##### Following Patterns, Results, or Outcomes:
 {{RESULTSIN.KEYS}}  
   Note: {{RESULTSIN.NOTES}}
   
@@ -86,9 +84,10 @@ Following Patterns, Results, or Outcomes:
 <hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
 
 
-<div style="width:100%; font-size=75%; color:#999999;">
-© 2023 - Boris Steipe<br/>
-<a href="https://github.com/stSyl/PLAAI">Comments and Issues</a> | <a href="https://tinyurl.com/PLAAI-wp">White Paper | <a href="https://stsyl.github.io/PLAAI/PLAAI-reference.html">Reference Tree | <a href="https://sentientsyllabus.substack.com">Sentient Syllabus Substack</a>
-</div>
+<table style="border: none; width:100%; font-size:75%; color:#999999;">
+
+<tr><td>© 2023 - Boris Steipe</td></tr>
+<tr><td><a href="https://github.com/stSyl/PLAAI">Comments and Issues</a> | <a href="https://tinyurl.com/PLAAI-wp">White Paper | <a href="https://stsyl.github.io/PLAAI/PLAAI-reference.html">Reference Tree | <a href="https://sentientsyllabus.substack.com">Sentient Syllabus Substack</a></td></tr>
+</table>
 
 <!-- END-->

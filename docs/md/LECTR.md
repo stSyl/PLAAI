@@ -21,28 +21,28 @@
 
 #### Incoming Relationships
 
-Parent:
+##### Parent:
 <!--PARENT.KEY--><li><a href="https://stsyl.github.io/PLAAI/md/ORCOM.md">ORCOM</a> (Oral Communication)</li>
 <!--/PARENT.KEY-->  
   Note: <!--PARENT.NOTES-->Reference tree: IS-A relationship.<!--/PARENT.NOTES-->
   
-Is-A:
+##### Is-A:
 <!--ISA.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/MODUL.md">MODUL</a> (Course Module)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/ASSIG.md">ASSIG</a> (Assignment)</li>
 <!--/ISA.KEYS-->  
   Note:  <!--ISA.NOTES-->Lectures are the quintessential oral communication. They can be a standalone content module, and they can be produced and evaluated as an assignment.<!--/ISA.NOTES-->
   
-Results from:
+##### Results from:
 <!--RESULTSFROM.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/CNDEV.md">CNDEV</a> (Content Development)</li>
 <!--/RESULTSFROM.KEYS-->  
   Note: <!--RESULTSFROM.NOTES-->Content development of lectures has many facets. It is discussed here.<!--/RESULTSFROM.NOTES-->
   
-Governed by:
+##### Governed by:
 <!--GOVERNEDBY.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/SYLAB.md">SYLAB</a> (Syllabus)</li>
 <!--/GOVERNEDBY.KEYS-->  
   Note: <!--GOVERNEDBY.NOTES-->The syllabus is expected to contain a lecture schedule with contents outline.<!--/GOVERNEDBY.NOTES-->
   
-Component of:
+##### Component of:
 <!--COMPONENTOF.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/LESSN.md">LESSN</a> (Lesson)</li>
 <!--/COMPONENTOF.KEYS-->  
   Note: <!--COMPONENTOF.NOTES-->The actual lecture is usually only part of a lesson’s time slot.<!--/COMPONENTOF.NOTES-->
@@ -111,22 +111,20 @@ Post-lecture:
 
 <hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
 
-## This Pattern could be replaced with ...
+### This Pattern could be replaced with ...
 <!--CANBEREPLACEDWITH.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/INCLD.md">INCLD</a> (In-Class Discussion)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/EDULV.md">EDULV</a> (Educational Livestreaming)</li>
 <!--/CANBEREPLACEDWITH.KEYS-->  
   Note: <!--CANBEREPLACEDWITH.NOTES-->See text.<!--/CANBEREPLACEDWITH.NOTES-->
 
-<!-- 
-<!--FIGURE.URL--><!--/FIGURE.URL-->
-<!--FIGURE.CAPTION--><!--/FIGURE.CAPTION-->
--->
+<!-- FIGURE.URL -->
+<!--  FIGURE.CAPTION -->
 
 <hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
 
 #### Outgoing Relationships
 
-Components and Augmenting Patterns:
+##### Components and Augmenting Patterns:
 <!--HASCOMPONENT.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/EDCNT.md">EDCNT</a> (Educational Content)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/AIWRI.md">AIWRI</a> (AI Writing Tasks)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/AIDSC.md">AIDSC</a> (AI Discourse)</li>
@@ -135,11 +133,11 @@ Components and Augmenting Patterns:
 <!--/HASCOMPONENT.KEYS-->  
   Note: <!--HASCOMPONENT.NOTES-->See text.<!--/HASCOMPONENT.NOTES-->
 
-Alternative Forms or Modes:
+##### Alternative Forms or Modes:
 <!--ALTERNATIVEFORM.KEYS--><!--/ALTERNATIVEFORM.KEYS-->  
   Note: <!--ALTERNATIVEFORM.NOTES--><!--/ALTERNATIVEFORM.NOTES-->
   
-Following Patterns, Results, or Outcomes:
+##### Following Patterns, Results, or Outcomes:
 <!--RESULTSIN.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/ASSIG.md">ASSIG</a> (Assignment)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/TUTAL.md">TUTAL</a> (Tutorial)</li>
 <!--/RESULTSIN.KEYS-->  
@@ -149,10 +147,11 @@ Following Patterns, Results, or Outcomes:
 <hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
 
 
-<div style="width:100%; font-size=75%; color:#999999;">
-© 2023 - Boris Steipe<br/>
-<a href="https://github.com/stSyl/PLAAI">Comments and Issues</a> | <a href="https://tinyurl.com/PLAAI-wp">White Paper | <a href="https://stsyl.github.io/PLAAI/PLAAI-reference.html">Reference Tree | <a href="https://sentientsyllabus.substack.com">Sentient Syllabus Substack</a>
-</div>
+<table style="border: none; width:100%; font-size:75%; color:#999999;">
+
+<tr><td>© 2023 - Boris Steipe</td></tr>
+<tr><td><a href="https://github.com/stSyl/PLAAI">Comments and Issues</a> | <a href="https://tinyurl.com/PLAAI-wp">White Paper | <a href="https://stsyl.github.io/PLAAI/PLAAI-reference.html">Reference Tree | <a href="https://sentientsyllabus.substack.com">Sentient Syllabus Substack</a></td></tr>
+</table>
 
 <!-- END-->
 
