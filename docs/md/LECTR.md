@@ -20,7 +20,6 @@ table {
   <tr><td>Last Update: </td><td><!--UPDATE-->2023-05-21T17:00-0400<!--/UPDATE--></td></tr>
   <tr><td>Status: </td><td><!--STATUS-->public<!--/STATUS--></td></tr>
   <tr><td>Displayed in the tree: </td><td><!--STYLE-->show:TRUE; col:#E1EEE5; size:10; order:105<!--/STYLE--></td></tr>
-  <tr><td>Other information: </td><td><!--META--><!--/META--></td></tr>
   </table>
   </p>
 </details>
@@ -144,8 +143,6 @@ Post-lecture:
 
 ##### Alternative Forms or Modes:
 <table style="width:100%; font-size:90%; color:#555555;">
-<tr><td><!--ALTERNATIVEFORM.KEYS--><!--/ALTERNATIVEFORM.KEYS--></td></tr>
-<tr><td><!--ALTERNATIVEFORM.NOTES--><!--/ALTERNATIVEFORM.NOTES--></td></tr>
 </table>
 
 
