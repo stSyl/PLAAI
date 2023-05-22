@@ -6,20 +6,20 @@ table {
 }
 </style>
 
-# <!--KEY-->LECTR<!--/KEY--> - <!--TITLE-->Lecture<!--/TITLE-->
+# LECTR - Lecture
+
+Transmission of information about a defined topic through oral interpretation.
 
 <details>
   <summary>About ...</summary>
   <p>
   <table style="width:100%; font-size:75%;">
-  
-  <tr><td>Short Title: </td><td><!--SHORT-->Lecture<!--/SHORT--></td></tr>
-  <tr><td>Definition: </td><td><!--DEF-->Transmission of information about a defined topic through oral interpretation.<!--/DEF--></td></tr>
-  <tr><td>Contributors: </td><td><!--CONTRIB-->Boris STEIPE <boris.steipe@utoronto.ca><!--/CONTRIB--></td></tr>
-  <tr><td>Schema version: </td><td><!--VERSION-->v. 2023-05-21<!--/VERSION--></td></tr>
-  <tr><td>Last Update: </td><td><!--UPDATE-->2023-05-21T17:00-0400<!--/UPDATE--></td></tr>
-  <tr><td>Status: </td><td><!--STATUS-->public<!--/STATUS--></td></tr>
-  <tr><td>Displayed in the tree: </td><td><!--STYLE-->show:TRUE; col:#E1EEE5; size:10; order:105<!--/STYLE--></td></tr>
+  <tr><td>Short Title: </td><td>Lecture</td></tr>
+  <tr><td>Contributors: </td><td>Boris STEIPE <boris.steipe@utoronto.ca></td></tr>
+  <tr><td>Schema version: </td><td>v. 2023-05-21</td></tr>
+  <tr><td>Last Update: </td><td>2023-05-21T17:00-0400</td></tr>
+  <tr><td>Status: </td><td>public</td></tr>
+  <tr><td>Tree style: </td><td>show:TRUE; col:#E1EEE5; size:10; order:105</td></tr>
   </table>
   </p>
 </details>
@@ -27,38 +27,48 @@ table {
 #### Incoming Relationships
 
 ##### Parent:
-<!--PARENT.KEY--><li><a href="https://stsyl.github.io/PLAAI/md/ORCOM.md">ORCOM</a> (Oral Communication)</li>
-<!--/PARENT.KEY-->  
-  Note: <!--PARENT.NOTES-->Reference tree: IS-A relationship.<!--/PARENT.NOTES-->
-  
+<table style="width:100%; font-size:90%; color:#555555;">
+<tr><td><li><a href="https://stsyl.github.io/PLAAI/md/ORCOM.md">ORCOM</a> (Oral Communication)</li>
+</td></tr>
+<tr><td>Reference tree: IS-A relationship.</td></tr>
+</table>
+
 ##### Is-A:
-<!--ISA.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/MODUL.md">MODUL</a> (Course Module)</li>
+<table style="width:100%; font-size:90%; color:#555555;">
+<tr><td><li><a href="https://stsyl.github.io/PLAAI/md/MODUL.md">MODUL</a> (Course Module)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/ASSIG.md">ASSIG</a> (Assignment)</li>
-<!--/ISA.KEYS-->  
-  Note:  <!--ISA.NOTES-->Lectures are the quintessential oral communication. They can be a standalone content module, and they can be produced and evaluated as an assignment.<!--/ISA.NOTES-->
-  
+</td></tr>
+<tr><td>Lectures are the quintessential oral communication. They can be a standalone content module, and they can be produced and evaluated as an assignment.</td></tr>
+</table>
+
 ##### Results from:
-<!--RESULTSFROM.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/CNDEV.md">CNDEV</a> (Content Development)</li>
-<!--/RESULTSFROM.KEYS-->  
-  Note: <!--RESULTSFROM.NOTES-->Content development of lectures has many facets. It is discussed here.<!--/RESULTSFROM.NOTES-->
-  
+<table style="width:100%; font-size:90%; color:#555555;">
+<tr><td><li><a href="https://stsyl.github.io/PLAAI/md/CNDEV.md">CNDEV</a> (Content Development)</li>
+</td></tr>
+<tr><td>Content development of lectures has many facets. It is discussed here.</td></tr>
+</table>
+
 ##### Governed by:
-<!--GOVERNEDBY.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/SYLAB.md">SYLAB</a> (Syllabus)</li>
-<!--/GOVERNEDBY.KEYS-->  
-  Note: <!--GOVERNEDBY.NOTES-->The syllabus is expected to contain a lecture schedule with contents outline.<!--/GOVERNEDBY.NOTES-->
-  
+<table style="width:100%; font-size:90%; color:#555555;">
+<tr><td><li><a href="https://stsyl.github.io/PLAAI/md/SYLAB.md">SYLAB</a> (Syllabus)</li>
+</td></tr>
+<tr><td>The syllabus is expected to contain a lecture schedule with contents outline.</td></tr>
+</table>
+
 ##### Component of:
-<!--COMPONENTOF.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/LESSN.md">LESSN</a> (Lesson)</li>
-<!--/COMPONENTOF.KEYS-->  
-  Note: <!--COMPONENTOF.NOTES-->The actual lecture is usually only part of a lesson’s time slot.<!--/COMPONENTOF.NOTES-->
+<table style="width:100%; font-size:90%; color:#555555;">
+<tr><td><li><a href="https://stsyl.github.io/PLAAI/md/LESSN.md">LESSN</a> (Lesson)</li>
+</td></tr>
+<tr><td>The actual lecture is usually only part of a lesson’s time slot.</td></tr>
+</table>
 
 <hr style="height: 1px; background:#cee0f2; margin: 20px 0;"/>
 
 ## Task:
-<!--TASK-->The purpose of the Lecture pattern is to transmit information through a human, oral interpretation. Despite the long tradition and ubiquitous use of lectures, there is significant scope for improvement, including: having learners participate actively, individualizing the pace and the instruction level, and addressing missing prerequisite knowledge.<!--/TASK-->
+The purpose of the Lecture pattern is to transmit information through a human, oral interpretation. Despite the long tradition and ubiquitous use of lectures, there is significant scope for improvement, including: having learners participate actively, individualizing the pace and the instruction level, and addressing missing prerequisite knowledge.
 
 ## Details:
-<!--DETAILS-->It would not be wrong to consider the lecture to be the defining activity of the academy: an authority, proclaiming their views to an audience of learners. There are apparently significant benefits to listening to an other, which engages both verbal and non-verbal channels of communication. Merits that are specific to the lecture format include:
+It would not be wrong to consider the lecture to be the defining activity of the academy: an authority, proclaiming their views to an audience of learners. There are apparently significant benefits to listening to an other, which engages both verbal and non-verbal channels of communication. Merits that are specific to the lecture format include:
 * Speech: many learners absorb information more easily from listening to explanations than from reading them.
 * Pacing: the typical pace of speech is well suited for comprehension.
 * Scale: the typical length of a lecture matches our attention spans and the amount of information we can pick up at one time.
@@ -77,10 +87,10 @@ Lectures occupy their allocated time slots fully, can neither be accelerated nor
 
 Similarly, lectures are given at a specific date, which may not be the right date for self-paced learning. This can be mitigated after the lecture, by AI assisted debriefing and follow-up, at the learner’s pace.
 
-Personalizing the experience supports the crucial social benefits of a joint scholarly effort at an event. Imagine not “giving” a lecture but celebrating it, and develop ideas about framing the lecture that can support a sense of purpose and excitement for the audience.<!--/DETAILS-->
+Personalizing the experience supports the crucial social benefits of a joint scholarly effort at an event. Imagine not “giving” a lecture but celebrating it, and develop ideas about framing the lecture that can support a sense of purpose and excitement for the audience.
 
 ## AI concerns:
-<!--AI-->All activities below are implied to be collaborations with the AI. Many of the suggestions result in artefacts, ideally, these are organized in a knowledge repository.
+All activities below are implied to be collaborations with the AI. Many of the suggestions result in artefacts, ideally, these are organized in a knowledge repository.
 
 Preparing the lecture:
 * Prepare a written script from the raw lecture slides, as a basis for further transformations.
@@ -109,18 +119,20 @@ Post-lecture:
 * To support continuous and self-paced learning, set-up a debriefing process that students can engage with at the time that is most suitable for them. Include the lecture script and transcript in a knowledge repository to support this.
 * Generate individualized homework assignments that are tailored to different learning levels, levels of preparation, and learning styles.
 * Generate a glossary of important terms and concepts from the lecture to be made available in a knowledge repository.
-<!--/AI-->
+
 
 ## Implementation:
-<!--IMPLEMENTATION-->Treat the lecture as an exciting, inspiring event, and share the excitement with your audience. The use of AI in the preparation and post-processing of lectures follows established patterns of collaboration. Transform the lecture into a script, as a resource to interface with the AI and enable its contributions to the content. Share results in a knowledge repository. Interleave your delivery with check-in breaks, to add a discursive, participatory dimension. And: consider alternatives with a stronger active-learning component.<!--/IMPLEMENTATION-->
+Treat the lecture as an exciting, inspiring event, and share the excitement with your audience. The use of AI in the preparation and post-processing of lectures follows established patterns of collaboration. Transform the lecture into a script, as a resource to interface with the AI and enable its contributions to the content. Share results in a knowledge repository. Interleave your delivery with check-in breaks, to add a discursive, participatory dimension. And: consider alternatives with a stronger active-learning component.
 
 <hr style="height: 1px; background:#cee0f2; margin: 20px 0;"/>
 
 ### This Pattern could be replaced with ...
-<!--CANBEREPLACEDWITH.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/INCLD.md">INCLD</a> (In-Class Discussion)</li>
+<table style="width:100%; font-size:90%; color:#555555;">
+<tr><td><li><a href="https://stsyl.github.io/PLAAI/md/INCLD.md">INCLD</a> (In-Class Discussion)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/EDULV.md">EDULV</a> (Educational Livestreaming)</li>
-<!--/CANBEREPLACEDWITH.KEYS-->  
-  Note: <!--CANBEREPLACEDWITH.NOTES-->See text.<!--/CANBEREPLACEDWITH.NOTES-->
+</td></tr>
+<tr><td>See text.</td></tr>
+</table>
 
 <!-- FIGURE.URL -->
 <!--  FIGURE.CAPTION -->
@@ -131,26 +143,26 @@ Post-lecture:
 
 ##### Components and Augmenting Patterns:
 <table style="width:100%; font-size:90%; color:#555555;">
-<tr><td><!--HASCOMPONENT.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/EDCNT.md">EDCNT</a> (Educational Content)</li>
+<tr><td><li><a href="https://stsyl.github.io/PLAAI/md/EDCNT.md">EDCNT</a> (Educational Content)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/AIWRI.md">AIWRI</a> (AI Writing Tasks)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/AIDSC.md">AIDSC</a> (AI Discourse)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/AITTR.md">AITTR</a> (AI Tutoring)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/KNREP.md">KNREP</a> (Knowledge Repositories)</li>
-<!--/HASCOMPONENT.KEYS--></td></tr>
-<tr><td><!--HASCOMPONENT.NOTES-->See text.<!--/HASCOMPONENT.NOTES--></td></tr>
+</td></tr>
+<tr><td>See text.</td></tr>
 </table>
-
 
 ##### Alternative Forms or Modes:
 <table style="width:100%; font-size:90%; color:#555555;">
 </table>
 
-
 ##### Following Patterns, Results, or Outcomes:
-<!--RESULTSIN.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/ASSIG.md">ASSIG</a> (Assignment)</li>
+<table style="width:100%; font-size:90%; color:#555555;">
+<tr><td><li><a href="https://stsyl.github.io/PLAAI/md/ASSIG.md">ASSIG</a> (Assignment)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/TUTAL.md">TUTAL</a> (Tutorial)</li>
-<!--/RESULTSIN.KEYS-->  
-  Note: <!--RESULTSIN.NOTES-->Lecture - Tutorial - Assignment - Assessment is a frequently employed process pattern.<!--/RESULTSIN.NOTES-->
+</td></tr>
+<tr><td>Lecture - Tutorial - Assignment - Assessment is a frequently employed process pattern.</td></tr>
+</table>
 
 <hr style="height: 1px; background:#cee0f2; margin: 20px 0;"/>
 
@@ -163,14 +175,6 @@ Post-lecture:
 <td><a href="https://sentientsyllabus.substack.com">Sentient Syllabus Substack</a></td>
 </tr>
 </table>
-
-<!-- table class="border-0" style="width:100%; font-size:75%; color:#999999;">
-<tr><td>© 2023 - Boris Steipe</td></tr>
-<tr><td><a href="https://github.com/stSyl/PLAAI">Comments and Issues</a> | <a href="https://tinyurl.com/PLAAI-wp">White Paper | <a href="https://stsyl.github.io/PLAAI/PLAAI-reference.html">Reference Tree | <a href="https://sentientsyllabus.substack.com">Sentient Syllabus Substack</a></td></tr>
-</table -->
-
-
-&nbsp;
 
 <!-- END-->
 
