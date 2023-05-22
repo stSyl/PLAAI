@@ -130,8 +130,8 @@ Post-lecture:
 
 #### Outgoing Relationships
 
+##### Components and Augmenting Patterns:
 <table style="width:100%; font-size:90%; color:#555555;">
-<tr><td>##### Components and Augmenting Patterns:</td></tr>
 <tr><td><!--HASCOMPONENT.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/EDCNT.md">EDCNT</a> (Educational Content)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/AIWRI.md">AIWRI</a> (AI Writing Tasks)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/AIDSC.md">AIDSC</a> (AI Discourse)</li>
@@ -142,14 +142,13 @@ Post-lecture:
 </table>
 
 
-
-  
-  Note: 
-
 ##### Alternative Forms or Modes:
-<!--ALTERNATIVEFORM.KEYS--><!--/ALTERNATIVEFORM.KEYS-->  
-  Note: <!--ALTERNATIVEFORM.NOTES--><!--/ALTERNATIVEFORM.NOTES-->
-  
+<table style="width:100%; font-size:90%; color:#555555;">
+<tr><td><!--ALTERNATIVEFORM.KEYS--><!--/ALTERNATIVEFORM.KEYS--></td></tr>
+<tr><td><!--ALTERNATIVEFORM.NOTES--><!--/ALTERNATIVEFORM.NOTES--></td></tr>
+</table>
+
+
 ##### Following Patterns, Results, or Outcomes:
 <!--RESULTSIN.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/ASSIG.md">ASSIG</a> (Assignment)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/TUTAL.md">TUTAL</a> (Tutorial)</li>
