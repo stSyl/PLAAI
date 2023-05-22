@@ -1,5 +1,11 @@
 <!-- template v. 2023-05-21T22:45-0400 -->
 <!-- compatible with PSPEC v. 2023-05-21 -->
+<style>
+table {
+  width: 100%;
+}
+</style>
+
 # <!--KEY-->LECTR<!--/KEY--> - <!--TITLE-->Lecture<!--/TITLE-->
 
 <details>
@@ -149,7 +155,7 @@ Post-lecture:
 <tr><td colspan="4">© 2023 - Boris Steipe</td></tr>
 <tr>
 <td><a href="https://github.com/stSyl/PLAAI">Comments and Issues</a></td>
-<td><a href="https://tinyurl.com/PLAAI-wp">White Paper</td>
+<td><a href="https://tinyurl.com/PLAAI-wp">White Paper</a></td>
 <td><a href="https://stsyl.github.io/PLAAI/PLAAI-reference.html">Reference Tree</a></td>
 <td><a href="https://sentientsyllabus.substack.com">Sentient Syllabus Substack</a></td>
 </tr>
