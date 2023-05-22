@@ -30,7 +30,7 @@ Transmission of information about a defined topic through oral interpretation.
 <table style="width:100%; font-size:90%; color:#555555;">
 <tr><td><li><a href="https://stsyl.github.io/PLAAI/md/ORCOM.md">ORCOM</a> (Oral Communication)</li>
 </td></tr>
-<tr><td>Reference tree: IS-A relationship.</td></tr>
+<tr><td><img width="980" height="1"><br/>Reference tree: IS-A relationship.</td></tr>
 </table>
 
 ##### Is-A:
@@ -38,28 +38,28 @@ Transmission of information about a defined topic through oral interpretation.
 <tr><td><li><a href="https://stsyl.github.io/PLAAI/md/MODUL.md">MODUL</a> (Course Module)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/ASSIG.md">ASSIG</a> (Assignment)</li>
 </td></tr>
-<tr><td>Lectures are the quintessential oral communication. They can be a standalone content module, and they can be produced and evaluated as an assignment.</td></tr>
+<tr><td><img width="980" height="1"><br/>Lectures are the quintessential oral communication. They can be a standalone content module, and they can be produced and evaluated as an assignment.</td></tr>
 </table>
 
 ##### Results from:
 <table style="width:100%; font-size:90%; color:#555555;">
 <tr><td><li><a href="https://stsyl.github.io/PLAAI/md/CNDEV.md">CNDEV</a> (Content Development)</li>
 </td></tr>
-<tr><td>Content development of lectures has many facets. It is discussed here.</td></tr>
+<tr><td><img width="980" height="1"><br/>Content development of lectures has many facets. It is discussed here.</td></tr>
 </table>
 
 ##### Governed by:
 <table style="width:100%; font-size:90%; color:#555555;">
 <tr><td><li><a href="https://stsyl.github.io/PLAAI/md/SYLAB.md">SYLAB</a> (Syllabus)</li>
 </td></tr>
-<tr><td>The syllabus is expected to contain a lecture schedule with contents outline.</td></tr>
+<tr><td><img width="980" height="1"><br/>The syllabus is expected to contain a lecture schedule with contents outline.</td></tr>
 </table>
 
 ##### Component of:
 <table style="width:100%; font-size:90%; color:#555555;">
 <tr><td><li><a href="https://stsyl.github.io/PLAAI/md/LESSN.md">LESSN</a> (Lesson)</li>
 </td></tr>
-<tr><td>The actual lecture is usually only part of a lesson’s time slot.</td></tr>
+<tr><td><img width="980" height="1"><br/>The actual lecture is usually only part of a lesson’s time slot.</td></tr>
 </table>
 
 <hr style="height: 1px; background:#cee0f2; margin: 20px 0;"/>
@@ -149,11 +149,12 @@ Treat the lecture as an exciting, inspiring event, and share the excitement with
 <li><a href="https://stsyl.github.io/PLAAI/md/AITTR.md">AITTR</a> (AI Tutoring)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/KNREP.md">KNREP</a> (Knowledge Repositories)</li>
 </td></tr>
-<tr><td>See text.</td></tr>
+<tr><td><img width="980" height="1"><br/>See text.</td></tr>
 </table>
 
 ##### Alternative Forms or Modes:
 <table style="width:100%; font-size:90%; color:#555555;">
+<tr><td><img width="980" height="1"><br/></td></tr>
 </table>
 
 ##### Following Patterns, Results, or Outcomes:
@@ -161,13 +162,13 @@ Treat the lecture as an exciting, inspiring event, and share the excitement with
 <tr><td><li><a href="https://stsyl.github.io/PLAAI/md/ASSIG.md">ASSIG</a> (Assignment)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/TUTAL.md">TUTAL</a> (Tutorial)</li>
 </td></tr>
-<tr><td>Lecture - Tutorial - Assignment - Assessment is a frequently employed process pattern.</td></tr>
+<tr><td><img width="980" height="1"><br/>Lecture - Tutorial - Assignment - Assessment is a frequently employed process pattern.</td></tr>
 </table>
 
 <hr style="height: 1px; background:#cee0f2; margin: 20px 0;"/>
 
 <table style="width:100%; font-size:75%; color:#999999;">
-<tr><td colspan="4">© 2023 - Boris Steipe</td></tr>
+<tr><td colspan="4"><img width="980" height="1"><br/>© 2023 - Boris Steipe</td></tr>
 <tr>
 <td><a href="https://github.com/stSyl/PLAAI">Comments and Issues</a></td>
 <td><a href="https://tinyurl.com/PLAAI-wp">White Paper</a></td>
