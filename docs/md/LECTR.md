@@ -128,10 +128,9 @@ Treat the lecture as an exciting, inspiring event, and share the excitement with
 
 ### This Pattern could be replaced with ...
 <table style="width:100%; font-size:90%; color:#555555;">
-<th width="100%">width?</th>
 <tr><td><li><a href="https://stsyl.github.io/PLAAI/md/INCLD.md">INCLD</a> (In-Class Discussion)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/EDULV.md">EDULV</a> (Educational Livestreaming)</li>
-</td></tr>
+<img width="100%" height="1"></td></tr>
 <tr><td>See text.</td></tr>
 </table>
 
