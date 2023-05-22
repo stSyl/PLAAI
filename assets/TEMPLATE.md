@@ -1,11 +1,11 @@
-<!-- template v. 2023-05-20T10:45-0400 -->
-<!-- compatible with PSPEC v. 2023-05-20 -->
+<!-- template v. 2023-05-21T22:45-0400 -->
+<!-- compatible with PSPEC v. 2023-05-21 -->
 # {{KEY}} - {{TITLE}}
 
 <details>
   <summary>About ...</summary>
   <p>
-  <table style="width:100%;">
+  <table style="width:100%; font-size:75%;">
   
   <tr><td>Short Title: </td><td>{{SHORT}}</td></tr>
   <tr><td>Definition: </td><td>{{DEF}}</td></tr>
@@ -13,7 +13,8 @@
   <tr><td>Schema version: </td><td>{{VERSION}}</td></tr>
   <tr><td>Last Update: </td><td>{{UPDATE}}</td></tr>
   <tr><td>Status: </td><td>{{STATUS}}</td></tr>
-  <tr><td>Displayed in the tree: </td><td>{{IN.REFERENCE}}</td></tr>
+  <tr><td>Displayed in the tree: </td><td>{{STYLE}}</td></tr>
+  <tr><td>Other information: </td><td>{{META}}</td></tr>
   </table>
   </p>
 </details>
@@ -21,24 +22,24 @@
 #### Incoming Relationships
 
 Parent:
-{{PARENT.KEYS}}  
-  {{PARENT.NOTES}}
+{{PARENT.KEY}}  
+Note: {{PARENT.NOTES}}
   
 Is-A:
 {{ISA.KEYS}}  
-  {{ISA.NOTES}}
+Note:  {{ISA.NOTES}}
   
 Results from:
 {{RESULTSFROM.KEYS}}  
-  {{RESULTSFROM.NOTES}}
+Note: {{RESULTSFROM.NOTES}}
   
 Governed by:
 {{GOVERNEDBY.KEYS}}  
-  {{GOVERNEDBY.NOTES}}
+Note: {{GOVERNEDBY.NOTES}}
   
 Component of:
 {{COMPONENTOF.KEYS}}  
-  {{COMPONENTOF.NOTES}}
+Note: {{COMPONENTOF.NOTES}}
 
 ----
   
@@ -58,7 +59,7 @@ Component of:
 
 ## This Pattern could be replaced with ...
 {{CANBEREPLACEDWITH.KEYS}}  
-  {{CANBEREPLACEDWITH.NOTES}}
+Note: {{CANBEREPLACEDWITH.NOTES}}
 
 <!-- 
 {{FIGURE.URL}}
@@ -72,25 +73,23 @@ Component of:
 
 Components and Augmenting Patterns:
 {{HASCOMPONENT.KEYS}}  
-  {{HASCOMPONENT.NOTES}}
+Note: {{HASCOMPONENT.NOTES}}
 
 Alternative Forms or Modes:
 {{ALTERNATIVEFORM.KEYS}}  
-  {{ALTERNATIVEFORM.NOTES}}
+Note: {{ALTERNATIVEFORM.NOTES}}
   
 Following Patterns, Results, or Outcomes:
 {{RESULTSIN.KEYS}}  
-  {{RESULTSIN.NOTES}}
+Note: {{RESULTSIN.NOTES}}
   
-----
-<div style = "font-size=85%;">
-© 2023 - Boris Steipe 
 
-[Comments and Issues](https://github.com/stSyl/PLAAI) | 
-[White Paper](https://tinyurl.com/PLAAI-wp) | 
-[Reference Tree](https://stsyl.github.io/PLAAI/PLAAI-reference.html) | 
-[Sentient Syllabus Substack](https://sentientsyllabus.substack.com)
+<hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
 
+
+<div style="width:100%; font-size=75%; color:#999999;">
+© 2023 - Boris Steipe<br/>
+<a href="https://github.com/stSyl/PLAAI">Comments and Issues</a> | <a href="https://tinyurl.com/PLAAI-wp">White Paper | <a href="https://stsyl.github.io/PLAAI/PLAAI-reference.html">Reference Tree | <a href="https://sentientsyllabus.substack.com">Sentient Syllabus Substack</a>
 </div>
 
 <!-- END-->
