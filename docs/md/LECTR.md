@@ -130,14 +130,21 @@ Post-lecture:
 
 #### Outgoing Relationships
 
-##### Components and Augmenting Patterns:
-<!--HASCOMPONENT.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/EDCNT.md">EDCNT</a> (Educational Content)</li>
+<table style="width:100%; font-size:90%; color:#555555;">
+<tr><td>##### Components and Augmenting Patterns:</td></tr>
+<tr><td><!--HASCOMPONENT.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/EDCNT.md">EDCNT</a> (Educational Content)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/AIWRI.md">AIWRI</a> (AI Writing Tasks)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/AIDSC.md">AIDSC</a> (AI Discourse)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/AITTR.md">AITTR</a> (AI Tutoring)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/KNREP.md">KNREP</a> (Knowledge Repositories)</li>
-<!--/HASCOMPONENT.KEYS-->  
-  Note: <!--HASCOMPONENT.NOTES-->See text.<!--/HASCOMPONENT.NOTES-->
+<!--/HASCOMPONENT.KEYS--></td></tr>
+<tr><td><!--HASCOMPONENT.NOTES-->See text.<!--/HASCOMPONENT.NOTES--></td></tr>
+</table>
+
+
+
+  
+  Note: 
 
 ##### Alternative Forms or Modes:
 <!--ALTERNATIVEFORM.KEYS--><!--/ALTERNATIVEFORM.KEYS-->  
