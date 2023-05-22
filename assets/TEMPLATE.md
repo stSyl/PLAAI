@@ -41,7 +41,7 @@
 {{COMPONENTOF.KEYS}}  
   Note: {{COMPONENTOF.NOTES}}
 
-<hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
+<hr style="height: 1px; background:#cee0f2; margin: 20px 0;"/>
 
 ## Task:
 {{TASK}}
@@ -55,7 +55,7 @@
 ## Implementation:
 {{IMPLEMENTATION}}
 
-<hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
+<hr style="height: 1px; background:#cee0f2; margin: 20px 0;"/>
 
 ### This Pattern could be replaced with ...
 {{CANBEREPLACEDWITH.KEYS}}  
@@ -64,7 +64,7 @@
 <!-- FIGURE.URL -->
 <!--  FIGURE.CAPTION -->
 
-<hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
+<hr style="height: 1px; background:#cee0f2; margin: 20px 0;"/>
 
 #### Outgoing Relationships
 
@@ -79,15 +79,13 @@
 ##### Following Patterns, Results, or Outcomes:
 {{RESULTSIN.KEYS}}  
   Note: {{RESULTSIN.NOTES}}
-  
 
-<hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
+<hr style="height: 1px; background:#cee0f2; margin: 20px 0;"/>
 
-
-<table style="border: none; width:100%; font-size:75%; color:#999999;">
-
+<table style="border:0; width:100%; font-size:75%; color:#999999;">
 <tr><td>© 2023 - Boris Steipe</td></tr>
-<tr><td><a href="https://github.com/stSyl/PLAAI">Comments and Issues</a> | <a href="https://tinyurl.com/PLAAI-wp">White Paper | <a href="https://stsyl.github.io/PLAAI/PLAAI-reference.html">Reference Tree | <a href="https://sentientsyllabus.substack.com">Sentient Syllabus Substack</a></td></tr>
+<tr><td><a href="https://github.com/stSyl/PLAAI">Comments and Issues</a> | <a href="https://tinyurl.com/PLAAI-wp">White Paper | <a href="https://stsyl.github.io/PLAAI/PLAAI-reference.html">Reference Tree | <a href="https://sentientsyllabus.substack.com">Sentient Syllabus Substack</a>
+</td></tr>
 </table>
 
 <!-- END-->

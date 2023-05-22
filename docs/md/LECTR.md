@@ -47,7 +47,7 @@
 <!--/COMPONENTOF.KEYS-->  
   Note: <!--COMPONENTOF.NOTES-->The actual lecture is usually only part of a lesson’s time slot.<!--/COMPONENTOF.NOTES-->
 
-<hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
+<hr style="height: 1px; background:#cee0f2; margin: 20px 0;"/>
 
 ## Task:
 <!--TASK-->The purpose of the Lecture pattern is to transmit information through a human, oral interpretation. Despite the long tradition and ubiquitous use of lectures, there is significant scope for improvement, including: having learners participate actively, individualizing the pace and the instruction level, and addressing missing prerequisite knowledge.<!--/TASK-->
@@ -109,7 +109,7 @@ Post-lecture:
 ## Implementation:
 <!--IMPLEMENTATION-->Treat the lecture as an exciting, inspiring event, and share the excitement with your audience. The use of AI in the preparation and post-processing of lectures follows established patterns of collaboration. Transform the lecture into a script, as a resource to interface with the AI and enable its contributions to the content. Share results in a knowledge repository. Interleave your delivery with check-in breaks, to add a discursive, participatory dimension. And: consider alternatives with a stronger active-learning component.<!--/IMPLEMENTATION-->
 
-<hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
+<hr style="height: 1px; background:#cee0f2; margin: 20px 0;"/>
 
 ### This Pattern could be replaced with ...
 <!--CANBEREPLACEDWITH.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/INCLD.md">INCLD</a> (In-Class Discussion)</li>
@@ -120,7 +120,7 @@ Post-lecture:
 <!-- FIGURE.URL -->
 <!--  FIGURE.CAPTION -->
 
-<hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
+<hr style="height: 1px; background:#cee0f2; margin: 20px 0;"/>
 
 #### Outgoing Relationships
 
@@ -142,15 +142,13 @@ Post-lecture:
 <li><a href="https://stsyl.github.io/PLAAI/md/TUTAL.md">TUTAL</a> (Tutorial)</li>
 <!--/RESULTSIN.KEYS-->  
   Note: <!--RESULTSIN.NOTES-->Lecture - Tutorial - Assignment - Assessment is a frequently employed process pattern.<!--/RESULTSIN.NOTES-->
-  
 
-<hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
+<hr style="height: 1px; background:#cee0f2; margin: 20px 0;"/>
 
-
-<table style="border: none; width:100%; font-size:75%; color:#999999;">
-
+<table style="border:0; width:100%; font-size:75%; color:#999999;">
 <tr><td>© 2023 - Boris Steipe</td></tr>
-<tr><td><a href="https://github.com/stSyl/PLAAI">Comments and Issues</a> | <a href="https://tinyurl.com/PLAAI-wp">White Paper | <a href="https://stsyl.github.io/PLAAI/PLAAI-reference.html">Reference Tree | <a href="https://sentientsyllabus.substack.com">Sentient Syllabus Substack</a></td></tr>
+<tr><td><a href="https://github.com/stSyl/PLAAI">Comments and Issues</a> | <a href="https://tinyurl.com/PLAAI-wp">White Paper | <a href="https://stsyl.github.io/PLAAI/PLAAI-reference.html">Reference Tree | <a href="https://sentientsyllabus.substack.com">Sentient Syllabus Substack</a>
+</td></tr>
 </table>
 
 <!-- END-->
