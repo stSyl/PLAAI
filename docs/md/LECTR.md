@@ -22,43 +22,33 @@
 #### Incoming Relationships
 
 Parent:
-<!--PARENT.KEY--><ul>
-<li><a href="https://stsyl.github.io/PLAAI/md/ORCOM.md">ORCOM</a> (Oral Communication)</li>
-</ul>
+<!--PARENT.KEY--><li><a href="https://stsyl.github.io/PLAAI/md/ORCOM.md">ORCOM</a> (Oral Communication)</li>
 <!--/PARENT.KEY-->  
-Note: <!--PARENT.NOTES-->Reference tree: IS-A relationship.<!--/PARENT.NOTES-->
+  Note: <!--PARENT.NOTES-->Reference tree: IS-A relationship.<!--/PARENT.NOTES-->
   
 Is-A:
-<!--ISA.KEYS--><ul>
-<li><a href="https://stsyl.github.io/PLAAI/md/MODUL.md">MODUL</a> (Course Module)</li>
+<!--ISA.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/MODUL.md">MODUL</a> (Course Module)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/ASSIG.md">ASSIG</a> (Assignment)</li>
-</ul>
 <!--/ISA.KEYS-->  
-Note:  <!--ISA.NOTES-->Lectures are the quintessential oral communication. They can be a standalone content module, and they can be produced and evaluated as an assignment.<!--/ISA.NOTES-->
+  Note:  <!--ISA.NOTES-->Lectures are the quintessential oral communication. They can be a standalone content module, and they can be produced and evaluated as an assignment.<!--/ISA.NOTES-->
   
 Results from:
-<!--RESULTSFROM.KEYS--><ul>
-<li><a href="https://stsyl.github.io/PLAAI/md/CNDEV.md">CNDEV</a> (Content Development)</li>
-</ul>
+<!--RESULTSFROM.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/CNDEV.md">CNDEV</a> (Content Development)</li>
 <!--/RESULTSFROM.KEYS-->  
-Note: <!--RESULTSFROM.NOTES-->Content development of lectures has many facets. It is discussed here.<!--/RESULTSFROM.NOTES-->
+  Note: <!--RESULTSFROM.NOTES-->Content development of lectures has many facets. It is discussed here.<!--/RESULTSFROM.NOTES-->
   
 Governed by:
-<!--GOVERNEDBY.KEYS--><ul>
-<li><a href="https://stsyl.github.io/PLAAI/md/SYLAB.md">SYLAB</a> (Syllabus)</li>
-</ul>
+<!--GOVERNEDBY.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/SYLAB.md">SYLAB</a> (Syllabus)</li>
 <!--/GOVERNEDBY.KEYS-->  
-Note: <!--GOVERNEDBY.NOTES-->The syllabus is expected to contain a lecture schedule with contents outline.<!--/GOVERNEDBY.NOTES-->
+  Note: <!--GOVERNEDBY.NOTES-->The syllabus is expected to contain a lecture schedule with contents outline.<!--/GOVERNEDBY.NOTES-->
   
 Component of:
-<!--COMPONENTOF.KEYS--><ul>
-<li><a href="https://stsyl.github.io/PLAAI/md/LESSN.md">LESSN</a> (Lesson)</li>
-</ul>
+<!--COMPONENTOF.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/LESSN.md">LESSN</a> (Lesson)</li>
 <!--/COMPONENTOF.KEYS-->  
-Note: <!--COMPONENTOF.NOTES-->The actual lecture is usually only part of a lesson’s time slot.<!--/COMPONENTOF.NOTES-->
+  Note: <!--COMPONENTOF.NOTES-->The actual lecture is usually only part of a lesson’s time slot.<!--/COMPONENTOF.NOTES-->
 
-----
-  
+<hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
+
 ## Task:
 <!--TASK-->The purpose of the Lecture pattern is to transmit information through a human, oral interpretation. Despite the long tradition and ubiquitous use of lectures, there is significant scope for improvement, including: having learners participate actively, individualizing the pace and the instruction level, and addressing missing prerequisite knowledge.<!--/TASK-->
 
@@ -85,53 +75,75 @@ Similarly, lectures are given at a specific date, which may not be the right dat
 Personalizing the experience supports the crucial social benefits of a joint scholarly effort at an event. Imagine not “giving” a lecture but celebrating it, and develop ideas about framing the lecture that can support a sense of purpose and excitement for the audience.<!--/DETAILS-->
 
 ## AI concerns:
-<!--AI-->All activities below are implied to be collaborations with the AI. Many of the suggestions result in artefacts, ideally, these are organized in a knowledge repository.<!--/AI-->
+<!--AI-->All activities below are implied to be collaborations with the AI. Many of the suggestions result in artefacts, ideally, these are organized in a knowledge repository.
+
+Preparing the lecture:
+* Prepare a written script from the raw lecture slides, as a basis for further transformations.
+* Based on the script, revise lecture outlines to a length of one slide per minute or less.
+* Review the lecture contents. Ask for an unbiased critique of the lecture content that identifies potential areas of bias or underrepresentation of perspectives, and mentions alternative viewpoints. Ask for suggestions for interdisciplinary connections and real-world problems. Ask an AI with access to the internet about recent discoveries, controversies in the field, or related current events. Predict potential questions or confusion points that students might have, based on the lecture content, so they can be proactively addressed.
+* If the lecture is based on a manuscript, transform it into a set of keywords for free narration instead. These can be written on index cards to guide the lecture, or appear on the lecture slides.
+* Condense lengthy text in slides to an appropriate length: 40 words or less.
+* Generate a list of key concepts and related reading resources that students can review in advance.
+* Draft an announcement for the lecture, mention required or suggested audience preparation, manage expectations and create anticipation.
+* Create handouts.
+* Prepare a self-assessment quiz for students to assess their level of preparedness for the lecture.
+* Prepare speech-to-text: having a transcribed version of the lecture available will be useful. Apps and services are available, the technology is progressing rapidly. OpenAI's Whisper transcription language model can be run locally in a Jupyter notebook.
+
+During the lecture:
+* Use check-in breaks every ten minutes or so. This provides opportunities to involve the AI when you realign the lecture with the audience. During the break, ask the AI to summarize where the lecture is at, based on the script, or on the slides that were covered. Or ask it for questions it would like to have clarified: unlike a human audience, the AI will always have something to say. Or ask the AI to summarize the progress of the lecture so far. Then ask the human audience whether this is a correct understanding. This introduces a stimulating, competitive aspect to understanding the contents.
+* If a real-time transcript is available, the AI can craft self-evaluation questions for students at check-in breaks.
+* If a chat is available, the AI can summarize  the  general understanding among the members of the audience, and identify shared problems. We can anticipate that students are more motivated to contribute feedback to the chat if their contributions result in something constructive, or get them noticed. (Chat contributions may be a component of participation marks.) Encourage students specifically to contribute questions.
+* Periodically ask the AI to anticipate upcoming points in the lecture based on the content covered so far. "What do you think will come next." This will focus the audience's attention on the structure of contents: was the AI right?
+
+Post-lecture:
+* Have the audience collaborate with the AI to generate a shared set of possible follow-up topics - points of clarification, or unanswered questions - for the next lecture.
+* Create an FAQ document based on questions that were asked in the chat, or on common areas of confusion in similar topics.
+* Ask for a summary of the lecture in various formats (e.g., mind maps, bullet points, long-form text, flash cards, study notes) to support different learning styles.
+* Generate practice problems or application scenarios based on the lecture's key points.
+* Analyze the chat transcript (if available) to summarize student comments and sentiment, identify frequently asked questions, and note areas of confusion or high engagement.
+* To support continuous and self-paced learning, set-up a debriefing process that students can engage with at the time that is most suitable for them. Include the lecture script and transcript in a knowledge repository to support this.
+* Generate individualized homework assignments that are tailored to different learning levels, levels of preparation, and learning styles.
+* Generate a glossary of important terms and concepts from the lecture to be made available in a knowledge repository.
+<!--/AI-->
 
 ## Implementation:
 <!--IMPLEMENTATION-->Treat the lecture as an exciting, inspiring event, and share the excitement with your audience. The use of AI in the preparation and post-processing of lectures follows established patterns of collaboration. Transform the lecture into a script, as a resource to interface with the AI and enable its contributions to the content. Share results in a knowledge repository. Interleave your delivery with check-in breaks, to add a discursive, participatory dimension. And: consider alternatives with a stronger active-learning component.<!--/IMPLEMENTATION-->
 
-----
+<hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
 
 ## This Pattern could be replaced with ...
-<!--CANBEREPLACEDWITH.KEYS--><ul>
-<li><a href="https://stsyl.github.io/PLAAI/md/INCLD.md">INCLD</a> (In-Class Discussion)</li>
+<!--CANBEREPLACEDWITH.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/INCLD.md">INCLD</a> (In-Class Discussion)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/EDULV.md">EDULV</a> (Educational Livestreaming)</li>
-</ul>
 <!--/CANBEREPLACEDWITH.KEYS-->  
-Note: <!--CANBEREPLACEDWITH.NOTES-->See text.<!--/CANBEREPLACEDWITH.NOTES-->
+  Note: <!--CANBEREPLACEDWITH.NOTES-->See text.<!--/CANBEREPLACEDWITH.NOTES-->
 
 <!-- 
 <!--FIGURE.URL--><!--/FIGURE.URL-->
 <!--FIGURE.CAPTION--><!--/FIGURE.CAPTION-->
 -->
 
-
-----
+<hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
 
 #### Outgoing Relationships
 
 Components and Augmenting Patterns:
-<!--HASCOMPONENT.KEYS--><ul>
-<li><a href="https://stsyl.github.io/PLAAI/md/EDCNT.md">EDCNT</a> (Educational Content)</li>
+<!--HASCOMPONENT.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/EDCNT.md">EDCNT</a> (Educational Content)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/AIWRI.md">AIWRI</a> (AI Writing Tasks)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/AIDSC.md">AIDSC</a> (AI Discourse)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/AITTR.md">AITTR</a> (AI Tutoring)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/KNREP.md">KNREP</a> (Knowledge Repositories)</li>
-</ul>
 <!--/HASCOMPONENT.KEYS-->  
-Note: <!--HASCOMPONENT.NOTES-->See text.<!--/HASCOMPONENT.NOTES-->
+  Note: <!--HASCOMPONENT.NOTES-->See text.<!--/HASCOMPONENT.NOTES-->
 
 Alternative Forms or Modes:
 <!--ALTERNATIVEFORM.KEYS--><!--/ALTERNATIVEFORM.KEYS-->  
-Note: <!--ALTERNATIVEFORM.NOTES--><!--/ALTERNATIVEFORM.NOTES-->
+  Note: <!--ALTERNATIVEFORM.NOTES--><!--/ALTERNATIVEFORM.NOTES-->
   
 Following Patterns, Results, or Outcomes:
-<!--RESULTSIN.KEYS--><ul>
-<li><a href="https://stsyl.github.io/PLAAI/md/ASSIG.md">ASSIG</a> (Assignment)</li>
+<!--RESULTSIN.KEYS--><li><a href="https://stsyl.github.io/PLAAI/md/ASSIG.md">ASSIG</a> (Assignment)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/TUTAL.md">TUTAL</a> (Tutorial)</li>
-</ul>
 <!--/RESULTSIN.KEYS-->  
-Note: <!--RESULTSIN.NOTES-->Lecture - Tutorial - Assignment - Assessment is a frequently employed process pattern.<!--/RESULTSIN.NOTES-->
+  Note: <!--RESULTSIN.NOTES-->Lecture - Tutorial - Assignment - Assessment is a frequently employed process pattern.<!--/RESULTSIN.NOTES-->
   
 
 <hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>

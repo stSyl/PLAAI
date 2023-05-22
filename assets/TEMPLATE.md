@@ -23,26 +23,26 @@
 
 Parent:
 {{PARENT.KEY}}  
-Note: {{PARENT.NOTES}}
+  Note: {{PARENT.NOTES}}
   
 Is-A:
 {{ISA.KEYS}}  
-Note:  {{ISA.NOTES}}
+  Note:  {{ISA.NOTES}}
   
 Results from:
 {{RESULTSFROM.KEYS}}  
-Note: {{RESULTSFROM.NOTES}}
+  Note: {{RESULTSFROM.NOTES}}
   
 Governed by:
 {{GOVERNEDBY.KEYS}}  
-Note: {{GOVERNEDBY.NOTES}}
+  Note: {{GOVERNEDBY.NOTES}}
   
 Component of:
 {{COMPONENTOF.KEYS}}  
-Note: {{COMPONENTOF.NOTES}}
+  Note: {{COMPONENTOF.NOTES}}
 
-----
-  
+<hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
+
 ## Task:
 {{TASK}}
 
@@ -55,33 +55,32 @@ Note: {{COMPONENTOF.NOTES}}
 ## Implementation:
 {{IMPLEMENTATION}}
 
-----
+<hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
 
 ## This Pattern could be replaced with ...
 {{CANBEREPLACEDWITH.KEYS}}  
-Note: {{CANBEREPLACEDWITH.NOTES}}
+  Note: {{CANBEREPLACEDWITH.NOTES}}
 
 <!-- 
 {{FIGURE.URL}}
 {{FIGURE.CAPTION}}
 -->
 
-
-----
+<hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
 
 #### Outgoing Relationships
 
 Components and Augmenting Patterns:
 {{HASCOMPONENT.KEYS}}  
-Note: {{HASCOMPONENT.NOTES}}
+  Note: {{HASCOMPONENT.NOTES}}
 
 Alternative Forms or Modes:
 {{ALTERNATIVEFORM.KEYS}}  
-Note: {{ALTERNATIVEFORM.NOTES}}
+  Note: {{ALTERNATIVEFORM.NOTES}}
   
 Following Patterns, Results, or Outcomes:
 {{RESULTSIN.KEYS}}  
-Note: {{RESULTSIN.NOTES}}
+  Note: {{RESULTSIN.NOTES}}
   
 
 <hr style="height: 2px; background:#cee0f2; margin: 20px 0;"/>
