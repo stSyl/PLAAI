@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title>PLAAI EDITOR</title>
+
+   <style>
+    .json-pair {
+        margin-bottom: 10px;
+    }
+    textarea {
+        display: block;
+        width: 500px;
+        height: 25px;
+        resize: both;
+        overflow: auto;
+    }
+    label {
+      font-size: 80%;
+      color: #888888;
+    }
+    body {
+      font-family: helvetica, Sans-Serif;
+    }
+    </style>
+
+  </head>
+  <body>
+
+
+<h1>PLAAI - Pattern Edit</h1>
+
+<!-- ========================== Input part ================================  -->
+
+
+    <input type="file" id="file-input" accept=".json"/>
+    <div id="json-content"></div>
+    <button id="save-button" style="display: none;">Save</button>
+
+
+
+
+<!-- ======================= Javascript part ==============================  -->
+    <script>
+    const fileInput = document.querySelector('#file-input');
+    const jsonContent = document.querySelector('#json-content');
+    const saveButton = document.querySelector('#save-button');
+
+    fileInput.addEventListener('change', function() {
+        const file = this.files[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+
+        reader.onload = function() {
+            let data;
+            try {
+                data = JSON.parse(this.result);
+                data = data[0];
+            } catch(e) {
+                console.error('Invalid JSON:', e);
+                return;
+            }
+
+            jsonContent.innerHTML = '';
+
+            for (let key in data) {
+                const pairDiv = document.createElement('div');
+                pairDiv.className = 'json-pair';
+
+                const label = document.createElement('label');
+                label.textContent = key;
+
+                const textarea = document.createElement('textarea');
+                textarea.dataset.key = key;
+                textarea.value = data[key];
+
+                pairDiv.appendChild(label);
+                pairDiv.appendChild(textarea);
+                jsonContent.appendChild(pairDiv);
+            }
+
+            saveButton.style.display = 'block';
+        };
+
+        reader.readAsText(file);
+    });
+
+    saveButton.addEventListener('click', () => {
+        const data = {};
+
+        for (let textarea of jsonContent.querySelectorAll('textarea')) {
+            data[textarea.dataset.key] = textarea.value;
+        }
+
+        const json = JSON.stringify([data], null, 2);
+
+        const blob = new Blob([json], {type: 'application/json'});
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = fileInput.files[0].name;
+        link.click();
+    });
+    </script>
+
+  </body>
+</html>
