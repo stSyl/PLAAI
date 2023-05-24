@@ -24,7 +24,11 @@ Transmission of information about a defined topic through oral interpretation.
   </p>
 </details>
 
-#### Incoming Relationships
+## Task:
+The purpose of the Lecture pattern is to transmit information through a human, oral interpretation. Despite the long tradition and ubiquitous use of lectures, there is significant scope for improvement, including: having learners participate actively, individualizing the pace and the instruction level, and addressing missing prerequisite knowledge.
+
+<details>
+  <summary>Patterns that feed into this one ...</summary>
 
 ##### Parent:
 <table style="width:100%; font-size:90%; color:#555555;">
@@ -61,11 +65,7 @@ Transmission of information about a defined topic through oral interpretation.
 </td></tr>
 <tr><td><img width="980" height="1"><br/>The actual lecture is usually only part of a lesson’s time slot.</td></tr>
 </table>
-
-<hr style="height: 1px; background:#cee0f2; margin: 20px 0;"/>
-
-## Task:
-The purpose of the Lecture pattern is to transmit information through a human, oral interpretation. Despite the long tradition and ubiquitous use of lectures, there is significant scope for improvement, including: having learners participate actively, individualizing the pace and the instruction level, and addressing missing prerequisite knowledge.
+</details>
 
 ## Details:
 It would not be wrong to consider the lecture to be the defining activity of the academy: an authority, proclaiming their views to an audience of learners. There are apparently significant benefits to listening to an other, which engages both verbal and non-verbal channels of communication. Merits that are specific to the lecture format include:
