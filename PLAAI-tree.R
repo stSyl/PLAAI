@@ -5,7 +5,7 @@
 #
 #   Based on Adeel Khan's "collapsibleTree" package
 #
-#   v. 2023-05-17
+#   v. 2023-05-24
 #
 #   boris.steipe@utoronto.ca
 # ==============================================================================

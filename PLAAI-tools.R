@@ -9,6 +9,11 @@
 # ==============================================================================
 #
 
+
+# === Most of this code is no longer needed, these are functions that worked
+# from the Google sheet spreadsheet version of PLAAI.
+
+
 # == Packages  ======
 if (! requireNamespace("jsonlite")) {
   install.packages("jsonlite")
@@ -244,6 +249,37 @@ tree2nest <- function(DF, root, nSep = 3, parents = "P_ISA") {
 
 
 
+validateDF <- function(DF, spec = jsonlite::read_json("JSON/PSPEC.json")){
+  # Validate that the dataframe DF conforms to the pattern specification
+  # found in PSPEC.json
+  if (any(colnames(DF) !=  names(spec))) {
+    print("PANIC: names mismatch between data frame and JSON")
+    print(sprintf("JSON: %s", paste(names(spec), collapse = " | ")))
+    print(sprintf("DF: %s", paste(colnames(DF), collapse = " | ")))
+    stop()
+  }
+
+  # Todo: fetch version from PMETA and check against PLSPEC.json
+  return(TRUE)
+
+}
+
+
+
+df2JSON <-function(DF, KEY) {
+  # Write one row from DF identified by KEY into a JSON format
+
+  stopifnot(KEY %in% rownames(DF))
+  x <- DF[KEY, ]
+  rownames(x) <- NULL  # Need to clear the rowname, otherwise toJSON()
+  # creates an extra key/value which breaks the schema
+  # and I don't know why they would silently do that
+  # but here we are ...
+  json <- jsonlite::toJSON(x, pretty = TRUE)
+  return(json)
+
+}
+
 
 
 
@@ -303,40 +339,6 @@ if (FALSE) {
             row.names = FALSE,
             na = "")
 }
-
-NewTree <- master2treeDf(DFnew)
-
-x <- collapsibleTreeNetwork(NewTree,
-                            fill = "COLOR",
-                            attribute = "TASK",
-                            width = 600,
-                            height = 600)
-
-(outFile <- sprintf("PLAAI-reference-%s.html",
-                   format(Sys.time(), "%Y-%m-%d_%H-%M"))) # copy this to load
-htmlwidgets::saveWidget(x,
-                        file = outFile,
-                        title = "PLAAI Tree View",
-                        selfcontained = TRUE)
-
-# Postprocess:
-#   <h2>PLAAI - A Pattern Language for AI-Augmented Instruction</h2>
-# {"viewer":{"width":450,"height":450,"padding":0,"fill":true},"browser":{"width":960,"height":600,"padding":40,"fill":false}}
-#
-# add version, Author, link.
-#
-
-# ================
-# Convert Google Sheet to MD files.
-
-PLAAIdf <- fetchPLAAIdf()
-
-for (key in PLAAIdf$KEY) {
-
-}
-
-
-
 
 
 
