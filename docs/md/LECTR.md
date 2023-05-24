@@ -1,4 +1,4 @@
-<!-- template v. 2023-05-21T22:45-0400 -->
+<!-- template v. 2023-05-24T10:29-0400   -->
 <!-- compatible with PSPEC v. 2023-05-21 -->
 <style>
 table {
@@ -28,16 +28,16 @@ Transmission of information about a defined topic through oral interpretation.
 The purpose of the Lecture pattern is to transmit information through a human, oral interpretation. Despite the long tradition and ubiquitous use of lectures, there is significant scope for improvement, including: having learners participate actively, individualizing the pace and the instruction level, and addressing missing prerequisite knowledge.
 
 <details>
-  <summary>Patterns that feed into this one ...</summary>
+  <summary>Other patterns that feed into here ...</summary>
 
-##### Parent:
+<h4>Parent:</h4>
 <table style="width:100%; font-size:90%; color:#555555;">
 <tr><td><li><a href="https://stsyl.github.io/PLAAI/md/ORCOM.md">ORCOM</a> (Oral Communication)</li>
 </td></tr>
 <tr><td><img width="980" height="1"><br/>Reference tree: IS-A relationship.</td></tr>
 </table>
 
-##### Is-A:
+<h4>Is-A:</h4>
 <table style="width:100%; font-size:90%; color:#555555;">
 <tr><td><li><a href="https://stsyl.github.io/PLAAI/md/MODUL.md">MODUL</a> (Course Module)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/ASSIG.md">ASSIG</a> (Assignment)</li>
@@ -45,21 +45,21 @@ The purpose of the Lecture pattern is to transmit information through a human, o
 <tr><td><img width="980" height="1"><br/>Lectures are the quintessential oral communication. They can be a standalone content module, and they can be produced and evaluated as an assignment.</td></tr>
 </table>
 
-##### Results from:
+<h4>Results from:</h4>
 <table style="width:100%; font-size:90%; color:#555555;">
 <tr><td><li><a href="https://stsyl.github.io/PLAAI/md/CNDEV.md">CNDEV</a> (Content Development)</li>
 </td></tr>
 <tr><td><img width="980" height="1"><br/>Content development of lectures has many facets. It is discussed here.</td></tr>
 </table>
 
-##### Governed by:
+<h4>Governed by:</h4>
 <table style="width:100%; font-size:90%; color:#555555;">
 <tr><td><li><a href="https://stsyl.github.io/PLAAI/md/SYLAB.md">SYLAB</a> (Syllabus)</li>
 </td></tr>
 <tr><td><img width="980" height="1"><br/>The syllabus is expected to contain a lecture schedule with contents outline.</td></tr>
 </table>
 
-##### Component of:
+<h4>Component of:</h4>
 <table style="width:100%; font-size:90%; color:#555555;">
 <tr><td><li><a href="https://stsyl.github.io/PLAAI/md/LESSN.md">LESSN</a> (Lesson)</li>
 </td></tr>
@@ -126,7 +126,7 @@ Treat the lecture as an exciting, inspiring event, and share the excitement with
 
 <hr style="height: 1px; background:#cee0f2; margin: 20px 0;"/>
 
-### This Pattern could be replaced with ...
+### This Pattern could be substituted with ...
 <table style="font-size:90%; color:#555555;">
 <tr><td><li><a href="https://stsyl.github.io/PLAAI/md/INCLD.md">INCLD</a> (In-Class Discussion)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/EDULV.md">EDULV</a> (Educational Livestreaming)</li>
@@ -139,9 +139,10 @@ Treat the lecture as an exciting, inspiring event, and share the excitement with
 
 <hr style="height: 1px; background:#cee0f2; margin: 20px 0;"/>
 
-#### Outgoing Relationships
+<details>
+  <summary>Other patterns that follow from this one, or complement it ...</summary>
 
-##### Components and Augmenting Patterns:
+<h4>Components and Augmenting Patterns:</h4>
 <table style="width:100%; font-size:90%; color:#555555;">
 <tr><td><li><a href="https://stsyl.github.io/PLAAI/md/EDCNT.md">EDCNT</a> (Educational Content)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/AIWRI.md">AIWRI</a> (AI Writing Tasks)</li>
@@ -152,18 +153,20 @@ Treat the lecture as an exciting, inspiring event, and share the excitement with
 <tr><td><img width="980" height="1"><br/>See text.</td></tr>
 </table>
 
-##### Alternative Forms or Modes:
+<h4>Alternative Forms or Modes:</h4>
 <table style="width:100%; font-size:90%; color:#555555;">
 <tr><td><img width="980" height="1"><br/></td></tr>
 </table>
 
-##### Following Patterns, Results, or Outcomes:
+<h4>Following Patterns, Results, or Outcomes:</h4>
 <table style="width:100%; font-size:90%; color:#555555;">
 <tr><td><li><a href="https://stsyl.github.io/PLAAI/md/ASSIG.md">ASSIG</a> (Assignment)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/TUTAL.md">TUTAL</a> (Tutorial)</li>
 </td></tr>
 <tr><td><img width="980" height="1"><br/>Lecture - Tutorial - Assignment - Assessment is a frequently employed process pattern.</td></tr>
 </table>
+
+</details>
 
 <hr style="height: 1px; background:#cee0f2; margin: 20px 0;"/>
 
