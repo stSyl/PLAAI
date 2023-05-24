@@ -88,7 +88,7 @@ json2md <- function(KEY,
 
   patt <- "\\{\\{([A-Z0-9]{5})\\}\\}"
   md <- gsub(patt,
-             "([\\1](https://stsyl.github.io/PLAAI/md/\\1.md))",
+             "([\\1](https://stsyl.github.io/PLAAI/md/\\1.html))",
              md)
 
   md <- paste0(c(md, ""), collapse = "\n")

@@ -26,7 +26,7 @@ Test pattern data for development.
 </details>
 
 ## Task:
-A pattern to develop code that works with pattern JSON data. Here is an internally linked ([PSPEC](https://stsyl.github.io/PLAAI/md/PSPEC.md)).
+A pattern to develop code that works with pattern JSON data. Here is an internally linked ([PSPEC](https://stsyl.github.io/PLAAI/md/PSPEC.html)).
 
 <details>
   <summary>Other patterns that feed into here ...</summary>
@@ -53,7 +53,7 @@ A pattern to develop code that works with pattern JSON data. Here is an internal
 <tr><td><li><a href="https://stsyl.github.io/PLAAI/md/PSPEC.md">PSPEC</a> (PLAAI Specification)</li>
 <li><a href="https://stsyl.github.io/PLAAI/md/PLAAI.md">PLAAI</a> (PLAAI)</li>
 </td></tr>
-<tr><td><img width="980" height="1"><br/>Obviously this test pattern needs to conform to the specification ([PSPEC](https://stsyl.github.io/PLAAI/md/PSPEC.md)) of a properly formatted ([PLAAI](https://stsyl.github.io/PLAAI/md/PLAAI.md)) pattern.</td></tr>
+<tr><td><img width="980" height="1"><br/>Obviously this test pattern needs to conform to the specification ([PSPEC](https://stsyl.github.io/PLAAI/md/PSPEC.html)) of a properly formatted ([PLAAI](https://stsyl.github.io/PLAAI/md/PLAAI.html)) pattern.</td></tr>
 </table>
 
 <h4>Component of:</h4>

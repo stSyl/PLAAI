@@ -25,7 +25,7 @@ Best practice in using AI resources effictively and responsibly.
 </details>
 
 ## Task:
-The AI Best-Practice pattern concerns the technical details of effective and efficient collaboration with AI resources. Very effective use can be made of Large Language models without particular investments into technology, but awareness of the limitations is important. The limitations include judicious choice of the model to use (discussed here), strategies for prompting ([AIPRO](https://stsyl.github.io/PLAAI/md/AIPRO.md)), and when programing solutions are needed for the use of corpora of text ([AIMBD](https://stsyl.github.io/PLAAI/md/AIMBD.md)) and plugins ([AIPLG](https://stsyl.github.io/PLAAI/md/AIPLG.md)).
+The AI Best-Practice pattern concerns the technical details of effective and efficient collaboration with AI resources. Very effective use can be made of Large Language models without particular investments into technology, but awareness of the limitations is important. The limitations include judicious choice of the model to use (discussed here), strategies for prompting ([AIPRO](https://stsyl.github.io/PLAAI/md/AIPRO.html)), and when programing solutions are needed for the use of corpora of text ([AIMBD](https://stsyl.github.io/PLAAI/md/AIMBD.html)) and plugins ([AIPLG](https://stsyl.github.io/PLAAI/md/AIPLG.html)).
 
 <details>
   <summary>Other patterns that feed into here ...</summary>
@@ -51,7 +51,7 @@ The AI Best-Practice pattern concerns the technical details of effective and eff
 <table style="width:100%; font-size:90%; color:#555555;">
 <tr><td><li><a href="https://stsyl.github.io/PLAAI/md/COMPR.md">COMPR</a> (Communities Of Practice)</li>
 </td></tr>
-<tr><td><img width="980" height="1"><br/>See ([COMPR](https://stsyl.github.io/PLAAI/md/COMPR.md)) for general thoughts on communities of practice.</td></tr>
+<tr><td><img width="980" height="1"><br/>See ([COMPR](https://stsyl.github.io/PLAAI/md/COMPR.html)) for general thoughts on communities of practice.</td></tr>
 </table>
 
 <h4>Component of:</h4>
