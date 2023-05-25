@@ -8,7 +8,7 @@ The “Pattern Language for AI-Augmented Instruction” (PLAAI) is a structured 
 PLAAI focuses on the integration of AI technologies – generative AI Language Models like ChatGPT – into education. This is developed as a “pattern language”, where _patterns_ are reusable solutions to common processes in education. PLAAI patterns include lectures, discussions, group work and the like. By providing practical advice and resources for the integration of AI, i.e. explanations, recipes, prompts etc., PLAAI provides an approach that is independent  of specific tools, resources, or pedagogies. Following this approach, educators will find ways to personalize instruction, increase engagement, and facilitate richer learning experiences across cognitive, associative, social, and practical domains. Since PLAAI is structured as a “language”, it is natural to create and combine patterns to rich constructs, like modules, courses, or entire programs, and it is straightforward to consider alternatives at every step. The results are assets that are effective, inclusive, and adaptable to learners' needs. 
 
 <figure>
-  <a href="PLAAI-reference.html"><img src="img/PLAAI-reference-tree.png" alt="The PLAAI reference tree"></a>
+  <a href="PLAAI-reference.html"><img src="docs/img/PLAAI-reference-tree.png" alt="The PLAAI reference tree"></a>
   <figcaption>Figure: The PLAAI interactive reference tree (<a href="PLAAI-reference.html">▷</a>), partially expanded. The box at the top is explanatory hover-text over a node.</figcaption>
 </figure>
 
