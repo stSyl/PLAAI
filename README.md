@@ -9,7 +9,7 @@ PLAAI focuses on the integration of AI technologies – generative AI Language M
 
 <figure>
   <a href="PLAAI-reference.html"><img src="docs/img/PLAAI-reference-tree.png" alt="The PLAAI reference tree"></a>
-  <figcaption>Figure: The PLAAI interactive reference tree (<a href="PLAAI-reference.html">▷</a>), partially expanded. The box at the top is explanatory hover-text over a node.</figcaption>
+  <figcaption>Figure: The PLAAI interactive reference tree (<a href="PLAAI-reference.html">▷</a>), partially expanded. The hover-text box over a node contains a clickable link.</figcaption>
 </figure>
 
 This GitHub project coordinates a community approach to developing PLAAI as best-practice in higher education.
