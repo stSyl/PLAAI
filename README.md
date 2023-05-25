@@ -12,9 +12,10 @@ PLAAI focuses on the integration of AI technologies – generative AI Language M
   <figcaption>Figure: The PLAAI interactive reference tree (<a href="PLAAI-reference.html">▷</a>), partially expanded. The hover-text box over a node contains a clickable link.</figcaption>
 </figure>
 
+
 This GitHub project coordinates a community approach to developing PLAAI as best-practice in higher education.
 
-To contribute, get in touch with the meaintainer, and/or raise an issue.
+To contribute, get in touch with the maintainer, and/or raise an issue.
 
 * Click [here](https://stsyl.github.io/PLAAI/PLAAI-reference.html) for the interactive reference tree.
 * Read details in the [PLAAI Whitepaper](https://tinyurl.com/PLAAI-wp).
@@ -37,7 +38,7 @@ To contribute, get in touch with the meaintainer, and/or raise an issue.
 #### Next steps
 
 * PLAII needs three integrated components: (1) a dictionary of patterns; (2) a compendium of processes; and (3) a repository of resources. The dictionary is well on its way. Build the process compendium next, and as necessary add resources.
-* Fill more patterns with contents
+* Fill more patterns with contents.
 
 ----
 (c) 2023
